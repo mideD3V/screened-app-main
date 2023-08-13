@@ -1,0 +1,22 @@
+#home{
+
+}
+.hero{
+    background-image: url('../../assets/home/hero-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+text-align: center;
+margin: auto;
+padding: 15rem;
+color: var(--white-color);
+}
+
+.hero h1{
+    margin: auto;
+
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    color: var(--white-color);
+}

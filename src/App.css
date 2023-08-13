@@ -1,3 +1,9 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'general font';
   src: url('./assets/Karma-Regular.ttf');
@@ -5,7 +11,8 @@
 :root {
   /* color palet  */
   --white-color: #fff;
-  --black-color: #363636;
+  --black-color: #111;
+  --grey-color: #363636;
 
   --sec-color: #f81e4f;
   --blue-color:#3a62f0;
@@ -23,5 +30,10 @@
 
   /* font family  */
   --font-reg:'general-font';
+}
+
+/* PRIMARY BUTTON STYLES */
+.primary-btn{
+  
 }
 
