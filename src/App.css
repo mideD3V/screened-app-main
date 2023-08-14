@@ -1,39 +1,65 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 @font-face {
-  font-family: 'general font';
-  src: url('./assets/Karma-Regular.ttf');
+  font-family: "general font";
+  src: url("./assets/Karma-Regular.ttf");
 }
 :root {
   /* color palet  */
   --white-color: #fff;
   --black-color: #111;
   --grey-color: #363636;
+  --off-white:rgba(249, 249, 249, 1);
 
-  --sec-color: #f81e4f;
-  --blue-color:#3a62f0;
-  --purple-color:#bd00ff80;
+
+  --red-color: red;
+  --hover-color: #870622;
+  --blue-color: #3a62f0;
+  --purple-color: #bd00ff80;
   --font-color-primary: black;
-    --button-bg-color:var(--sec-color);
-  --button-color:var(--pri-color);
+  --button-bg-color: var(--sec-color);
+  --button-color: var(--pri-color);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1); 
 
   /* font size  */
-  --text-heading-hero: 70px;
-  --text-heading-body: 50px;
-  --text-fontsize-md: 32px;
-  --text-fontsize-rg: 24px;
-  --text-fontsize-sm: 16px;
+  --text-vbg: 70px;
+  --text-bg: 50px;
+  --text-md: 32px;
+  --text-rg: 24px;
+  --text-sm: 16px;
 
   /* font family  */
-  --font-reg:'general-font';
+  --font-reg: "general-font";
 }
 
 /* PRIMARY BUTTON STYLES */
-.primary-btn{
-  
+.primary-btn {
+  padding: 1rem 1rem;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.primary-btn:hover {
+  background-color: var(--hover-color);
+}
+.redfont{
+  color: var(--red-color);
 }
 
+h2{
+  font-size: var(--text-md);
+}
+
+.link{
+  color: var(--black-color);
+}
+.link:hover{
+  color: var(--hover-color);
+}

@@ -31,7 +31,7 @@ color: var(--white-color);
 text-decoration: none;
 }
 .navlink:hover{
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--red-color);
 }
 #theme-selector{
     color: coral;

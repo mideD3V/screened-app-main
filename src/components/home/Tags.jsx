@@ -1,11 +1,7 @@
 import React from 'react'
-import {Tag} from './Tags'
-
-const listTags = tags.map(Tag) => {
-    <li>{Tag}</li>
-  return (
-    <div>Tags</div>
-  )
+import 
+const tags = () => {
+  return
 }
 
 export default Tags

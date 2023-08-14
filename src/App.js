@@ -12,6 +12,7 @@ import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import Movies from "./components/movies/Movies";
 import Series from "./components/series/Series";
+import Write from "./components/write/Write";
 import Searchbar from "./components/searchbar/Searchbar";
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/movies" element={<Movies/>}/>
         <Route path="/series" element={<Series/>}/>
+        <Route path="/write" element={<Write/>}/>
       </Routes>
 
       <Footer />

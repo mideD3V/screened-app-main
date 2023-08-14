@@ -1,9 +1,10 @@
 #search{
     position: relative;
-     margin: auto;
+     margin: auto 7rem;
+     
 }
 .searchbox {
-  width: 90vw;
+  width: 80vw;
 
   padding: 0.5rem 2rem;
   display: flex;

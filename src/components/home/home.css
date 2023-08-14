@@ -1,22 +1,110 @@
-#home{
-
+#home {
+  height: 70vh;
 }
-.hero{
-    background-image: url('../../assets/home/hero-img.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-text-align: center;
-margin: auto;
-padding: 15rem;
-color: var(--white-color);
+/* Hero section  */
+.hero {
+  height: 50vh;
+  background-image: url("../../assets/home/hero-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+  padding: 10rem;
+  color: var(--white-color);
+  text-align: center;
 }
 
-.hero h1{
-    margin: auto;
-
-    justify-content: center;
-    justify-self: center;
-    text-align: center;
-    color: var(--white-color);
+.hero h1 {
+  margin: auto;
+  font-size: var(--text-vbg);
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  color: var(--white-color);
 }
+.hero p {
+  font-size: var(--text-rg);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0;
+}
+#home-body {
+  padding: 2rem 7rem;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+.desc p {
+  font-size: var(--text-rg);
+}
+
+/* Categories */
+.home-cat {
+  height: max-content;
+  padding: 2rem 1rem;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Explore Category */
+#explore {
+  background: var(--off-white);
+  margin: 5rem;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.exp-cat {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.hollywood,
+.bollywood,
+.nollywood,
+.kdrama,
+.tvseries {
+  text-align: center;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  /* background-color: mediumblue; */
+}
+figure{
+  width: 95%;
+}
+figure img{
+  width: 100%;
+}
+figcaption{
+  color: var(--black-color);
+}
+.cat-title {
+  width: 100%;
+}
+.catline-ctn{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 110%;
+}
+#cat-line {
+  /* border: 1px solid var(--red-color); */
+  width: 120%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+

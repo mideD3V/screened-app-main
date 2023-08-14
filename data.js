@@ -1,0 +1,17 @@
+const tags = [
+    'Kdrama',
+'Romance',
+'Spanish',
+'Horror',
+'Action',
+'Hindi',
+'Anime',
+'Sci-fi',
+'Kids',
+'Drama',
+'Love',
+'Teens',
+'Series',
+'Tech',
+'18+',
+]

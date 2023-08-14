@@ -1,4 +1,6 @@
 import React from 'react'
+import './write.css'
+
 
 const Write = () => {
   return (
