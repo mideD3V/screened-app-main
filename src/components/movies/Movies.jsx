@@ -1,9 +1,12 @@
 import React from 'react'
 import './movies.css'
+import Empty from '../Construction'
 
 const Movies = () => {
   return (
-    <div>Movies</div>
+    <section id='movies'>
+      <Empty/>
+    </section>
   )
 }
 

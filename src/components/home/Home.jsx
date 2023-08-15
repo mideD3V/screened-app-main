@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import Card from "../card/Card";
 import { GoDotFill } from "react-icons/go";
 
-//IMPORT IMAGES
 
+//IMPORT IMAGES
 //home Images
 import Img1 from "../../assets/home/Frame1.png";
 import Img2 from "../../assets/home/Frame2.png";
@@ -34,6 +34,9 @@ import Ex3 from "../../assets/home/ex3.png";
 import Ex4 from "../../assets/home/ex4.png";
 import Ex5 from "../../assets/home/ex5.png";
 
+//import tags
+import Tags from "./Tags";
+
 const Home = () => {
   return (
     <div id="home">
@@ -52,7 +55,7 @@ const Home = () => {
 
       {/* BODY */}
       <div id="home-body">
-        <div className="offer">
+        <section className="offer">
           <img src={Img1} alt="" />
           <div className="desc">
             <h2>
@@ -75,10 +78,9 @@ const Home = () => {
 
             <br />
           </div>
-        </div>
-        <br />
-        <br />
-        <div className="offer">
+        </section>
+
+        <section className="offer">
           <div className="desc">
             <h2>
               What we <span className="redfont"> offer </span>
@@ -101,49 +103,52 @@ const Home = () => {
           </div>
 
           <img src={Img2} alt="" />
-        </div>
-        <div id="trending" className="home-cat">
-          <h2>
-            TRENDING <span className="redfont"> MOVES </span>
-          </h2>
-          <div className="cards">
-            <Card image={T1} title="Half Time" />
-            <Card image={T2} title="Scream" />
-            <Card image={T3} title="The Pirates" />
+        </section>
+        <section className="cat-ctn">
+          <div className="home-cat">
+            <h2>
+              TRENDING <span className="redfont"> MOVES </span>
+            </h2>
+            <div className="cards">
+              <Card image={T1} title="Half Time" />
+              <Card image={T2} title="Scream" />
+              <Card image={T3} title="The Pirates" />
+            </div>
           </div>
-        </div>
-        <div id="trending" className="home-cat">
-          <h2>
-            POPULAR <span className="redfont"> TV SCREENS </span>
-          </h2>
-          <div className="cards">
-            <Card image={P1} />
-            <Card image={P2} />
-            <Card image={P3} />
+          <div className="home-cat">
+            <h2>
+              POPULAR <span className="redfont"> TV SCREENS </span>
+            </h2>
+            <div className="cards">
+              <Card image={P1} />
+              <Card image={P2} />
+              <Card image={P3} />
+            </div>
           </div>
-        </div>
-        <div id="trending" className="home-cat">
-          <h2>
-            HOT <span className="redfont"> ANIME PICK </span>
-          </h2>
-          <div className="cards">
-            <Card image={H1} />
-            <Card image={H2} />
-            <Card image={H3} />
+          <div className="home-cat">
+            <h2>
+              HOT <span className="redfont"> ANIME PICK </span>
+            </h2>
+            <div className="cards">
+              <Card image={H1} />
+              <Card image={H2} />
+              <Card image={H3} />
+            </div>
           </div>
-        </div>
-        <div id="trending" className="home-cat">
-          <h2>
-            COMING <span className="redfont"> OUT SOON </span>
-          </h2>
-          <div className="cards">
-            <Card image={C1} />
-            <Card image={C2} />
-            <Card image={C3} />
+          <div className="home-cat">
+            <h2>
+              COMING <span className="redfont"> OUT SOON </span>
+            </h2>
+            <div className="cards">
+              <Card image={C1} />
+              <Card image={C2} />
+              <Card image={C3} />
+            </div>
           </div>
-        </div>
+        </section>
+
         {/* Explore section  */}
-        <div id="explore">
+        <section id="explore">
           <h2>
             Explore <span className="redfont"> our movies page </span>
           </h2>
@@ -234,6 +239,7 @@ const Home = () => {
                 <span className="catline-ctn">
                   <hr id="cat-line" />
                   <span className="catline-ctn">
+                    <br />
                     <hr id="cat-line" />
                     <span className="cat-dot">
                       <hr />
@@ -251,21 +257,14 @@ const Home = () => {
               </figure>
             </div>
           </div>
-        </div>
+        </section>
         {/* Browse by tags */}
 
         <section id="browse">
           <h2>
             Browse by <span className="redfont"> tags</span>
           </h2>
-          <ul>
-            <Link>Kdrama</Link>
-            <Link>Romance</Link>
-            <Link>Spanish</Link>
-            <Link>Horror</Link>
-            <Link>Spanish</Link>
-            <Link>Spanish</Link>
-          </ul>
+          <ul>{Tags}</ul>
         </section>
       </div>
     </div>

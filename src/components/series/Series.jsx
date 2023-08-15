@@ -1,10 +1,12 @@
 import React from 'react'
 import './series.css'
-
+import Empty from "../Construction";
 const Series = () => {
   return (
-    <div>Series</div>
-  )
+    <section id='series'>
+    <Empty/>
+    </section>
+  );
 }
 
 export default Series

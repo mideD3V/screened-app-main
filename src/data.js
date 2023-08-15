@@ -1,4 +1,4 @@
-const tags = [
+const TagsData = [
     'Kdrama',
 'Romance',
 'Spanish',

@@ -27,19 +27,19 @@ const Header = () => {
       </nav>
       <div className='nav2'>
         <div id="action">
-          <Link to="/" className="navlink">
+          <Link to="/write" className="navlink">
             Write for us
           </Link>
-          <Link to="/" className="navlink">
-            Write
+          <Link to="/contact" className="navlink">
+            Contact us
           </Link>
         </div>
 <span></span>
         <div id="account">
-          <Link to="/" className="navlink">
+          <Link to="/signup" className="navlink">
             Sign up
           </Link>
-          <Link to="/" className="navlink">
+          <Link to="/login" className="navlink">
             Log in
           </Link>
         </div>

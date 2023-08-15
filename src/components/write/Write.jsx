@@ -1,11 +1,14 @@
 import React from 'react'
 import './write.css'
+import Empty from "../Construction";
 
 
 const Write = () => {
   return (
-    <div>Write</div>
-  )
+    <section>
+   <Empty/>
+    </section>
+  );
 }
 
 export default Write

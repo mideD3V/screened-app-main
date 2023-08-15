@@ -1,10 +1,13 @@
 import React from 'react'
 import "./account.css";
-
+import Empty from "../Construction";
 const SignUp = () => {
   return (
-    <div>SignUp</div>
-  )
+    <section id='signup'>
+      {" "}
+      <Empty />
+    </section>
+  );
 }
 
 export default SignUp

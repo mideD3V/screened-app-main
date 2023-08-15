@@ -1,9 +1,12 @@
 import React from 'react'
 import './about.css'
+import Construction from '../Construction'
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <section id='about'>
+    <Construction/>
+    </section>
+  );
 }
 
 export default About

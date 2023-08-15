@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Empty from "../Construction";
 const Terms = () => {
   return (
-    <div>Terms</div>
-  )
+    <section id="terms">
+      {" "}
+      <Empty />
+      <h1>UNDER CONSTRUCTION</h1>
+    </section>
+  );
 }
 
 export default Terms
