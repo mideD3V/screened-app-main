@@ -1,18 +1,18 @@
-#search{
-    position: relative;
-     margin: auto 7rem;
-     
+#search {
+  position: relative;
+  margin: auto 7rem;
+  /* padding: 3rem; */
 }
 .searchbox {
   width: 80vw;
-
-  padding: 0.5rem 2rem;
+  margin-top: 6rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
   border: 1px solid var(--grey-color);
   background-color: var(--white-color);
-  opacity: .8;
+  opacity: 0.8;
   border: none;
   border-radius: 8px;
   position: absolute;
@@ -26,17 +26,17 @@
   gap: 8px;
 }
 #search-divider {
-    height: 2rem;
+  height: 2rem;
   border-left: 1px solid var(--grey-color);
 }
 .searchbox input {
   border: none;
   font-size: 1.2rem;
-width: 83%;
-background-color: rgba(240, 248, 255, 0);
+  width: 83%;
+  background-color: rgba(240, 248, 255, 0);
 }
-.searchbox input:focus{
-    outline: none;
+.searchbox input:focus {
+  outline: none;
 }
 #search-icon {
   transform: scale(2);

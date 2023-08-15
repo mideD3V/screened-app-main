@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 @font-face {
   font-family: "general font";
@@ -36,6 +31,15 @@ body {
   /* font family  */
   --font-reg: "general-font";
 }
+section{
+  padding: 0 5rem;
+}
+.construction{
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+  padding: 15rem;
+}
 
 /* PRIMARY BUTTON STYLES */
 .primary-btn {
@@ -46,9 +50,11 @@ body {
   border-radius: 8px;
   font-weight: bold;
 }
+
 .primary-btn:hover {
   background-color: var(--hover-color);
 }
+
 .redfont{
   color: var(--red-color);
 }
@@ -60,6 +66,7 @@ h2{
 .link{
   color: var(--black-color);
 }
+
 .link:hover{
   color: var(--hover-color);
 }

@@ -1,6 +1,6 @@
 #card {
   width: 29%;
-  height: 17rem;
+  height: 18rem;
   padding: 1rem;
   border: 1px solid var(--border-color);
   border-radius: 0.6rem;
@@ -18,4 +18,5 @@
 #card img {
   width: 100%;
   margin: auto;
+  margin-bottom: 10px;
 }

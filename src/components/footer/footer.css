@@ -1,0 +1,51 @@
+.footer {
+  padding: 5rem 5rem 2rem;
+  background-color: var(--black-color);
+  color: aliceblue;
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
+}
+.footerlinks {
+  padding: 2rem 5rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+.footerlinks .link,
+.socials {
+  color: var(--white-color);
+  font-size: var(--text-sm);
+  text-align: center;
+  text-decoration: none;
+}
+.footerlinks .link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  align-items: center;
+  margin-top: 15px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: var(--white-color);
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px;
+}
+.social-icons a:hover {
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+.copy {
+  text-align: center;
+  margin: 5rem auto 0;
+}

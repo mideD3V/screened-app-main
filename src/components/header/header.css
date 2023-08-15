@@ -1,13 +1,13 @@
-
-
 #header{
+    position: fixed;
     padding: 5px 5rem;
     display: flex;
-    width: 89vw;
+    width: 100vw;
     height: 5rem;
     justify-content: space-between;
     align-items: center;
     background-color: var(--black-color);
+    z-index: 2;
 }
 #logo{
     width: 13%;
