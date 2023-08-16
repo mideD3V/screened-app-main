@@ -1,7 +1,8 @@
 import * as React from 'react'
 import Logo from '../../assets/logo.jpg'
 import './header.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import {BiSolidDownArrow} from 'react-icons/bi'
 
 const Header = () => {
   return (
@@ -18,14 +19,18 @@ const Header = () => {
             About
           </Link>
           <Link to="/movies" className="navlink">
-            Movies
+            Movies{" "}
+            <span className="dropdown">
+              {" "}
+              <BiSolidDownArrow />
+            </span>
           </Link>
           <Link to="/series" className="navlink">
             TV Series
           </Link>
         </ul>{" "}
       </nav>
-      <div className='nav2'>
+      <div className="nav2">
         <div id="action">
           <Link to="/write" className="navlink">
             Write for us
@@ -34,7 +39,7 @@ const Header = () => {
             Contact us
           </Link>
         </div>
-<span></span>
+        <span></span>
         <div id="account">
           <Link to="/signup" className="navlink">
             Sign up

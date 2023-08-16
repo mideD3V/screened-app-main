@@ -20,7 +20,7 @@
 }
 nav ul, #action, #account, .nav2{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     color: var(--white-color);
 }
 .nav2 span{
@@ -29,7 +29,7 @@ nav ul, #action, #account, .nav2{
 .navlink{
 color: var(--white-color);
 text-decoration: none;
-}
+width: max-content;}
 .navlink:hover{
     border-bottom: 2px solid var(--red-color);
 }
@@ -44,3 +44,11 @@ text-decoration: none;
     background-color: brown;
     color: blueviolet;
 }
+
+.dropdown{
+    transform: scale(0.8);
+transform:  translate (10px, 50px);
+    padding-top: 5px;
+    position: absolute;
+    top: 1.8rem;
+margin-left: 3px;}

@@ -1,5 +1,8 @@
-import React, {useRef} from 'react'
+import React, { useRef } from 'react'
+import './contact.css'
 import emailjs from "@emailjs/browser";
+import Hero from '../Hero';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const form = useRef();
@@ -26,15 +29,16 @@ const Contact = () => {
 
 
   return (
-    <section id='contact'>
+    <section id="contact">
+      <div className="hero-contact">
+        <Hero title='CONTACT US'/>
+      </div>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+<h2>Connect <span className="redfont">with us today</span></h2>
+        <input type="text" name="user_name" placeholder='Name' />
+        <input type="email" name="user_email" placeholder='Email'/>
+        <textarea name="message" rows={10} cols='10' placeholder='Enter your message here'/>
+        <button type="submit" value="Send" className='primary-btn'>Send</button>
       </form>
     </section>
   );

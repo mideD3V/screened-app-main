@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "general font";
   src: url("./assets/Karma-Regular.ttf");
@@ -8,8 +7,7 @@
   --white-color: #fff;
   --black-color: #111;
   --grey-color: #363636;
-  --off-white:rgba(249, 249, 249, 1);
-
+  --off-white: rgba(249, 249, 249, 1);
 
   --red-color: red;
   --hover-color: #870622;
@@ -19,22 +17,22 @@
   --button-bg-color: var(--sec-color);
   --button-color: var(--pri-color);
   --border-color: rgba(0, 0, 0, 0.1);
-  --box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1); 
+  --box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 
   /* font size  */
   --text-vbg: 70px;
   --text-bg: 50px;
   --text-md: 32px;
   --text-rg: 24px;
-  --text-sm: 16px;
+  --text-sm: 18px;
 
   /* font family  */
   --font-reg: "general-font";
 }
-section{
+section {
   padding: 0 5rem;
 }
-.construction{
+.construction {
   font-size: 80px;
   text-align: center;
   margin: auto;
@@ -42,31 +40,64 @@ section{
 }
 
 /* PRIMARY BUTTON STYLES */
-.primary-btn {
-  padding: 1rem 1rem;
+.primary-btn, .sec-btn {
+  padding: 1rem 2rem;
   color: var(--white-color);
   background-color: var(--red-color);
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  border: none;
+}
+.sec-btn{
+  background-color: grey;
 }
 
 .primary-btn:hover {
   background-color: var(--hover-color);
 }
 
-.redfont{
+.redfont {
   color: var(--red-color);
 }
 
-h2{
+h2 {
   font-size: var(--text-md);
 }
 
-.link{
+.link {
   color: var(--black-color);
+
 }
 
-.link:hover{
+.link:hover {
   color: var(--hover-color);
+  cursor: pointer;
+}
+
+/* Hero section  */
+.hero {
+  margin: auto;
+  padding: 15rem;
+  width: 100%;
+  color: var(--white-color);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin: auto;
+  font-size: var(--text-vbg);
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  color: var(--white-color);
+}
+.hero p {
+  font-size: var(--text-rg);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0;
 }

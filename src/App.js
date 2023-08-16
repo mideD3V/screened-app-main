@@ -16,10 +16,9 @@ import Write from "./components/write/Write";
 import Login from "./components/account/Login";
 import Signup from "./components/account/SignUp";
 
-
 import Searchbar from "./components/searchbar/Searchbar";
-import Contact from "./components/contact/Contact";
-
+import ContactUs from "./components/contact/Contact";
+import Reset from "./components/account/Reset";
 
 function App() {
   return (
@@ -33,10 +32,10 @@ function App() {
         <Route path="/movies" element={<Movies />} />
         <Route path="/series" element={<Series />} />
         <Route path="/write" element={<Write />} />
-        <Route path="/login" element={<Signup/>} />
-        <Route path="/signup" element={<Login />} />
-        <Route path="/contact" element={<Contact/>} />
-
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/reset" element={<Reset />} />
+        <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />
     </>
