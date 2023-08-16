@@ -1,3 +1,65 @@
-#about{
-    
+#about {
+  padding: 0;
+  justify-content: space-between;
+  background-color: var(--white-color);
+}
+
+.hero-about {
+  background-image: url("../../assets/home/hero-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.about-desc{
+    background-color: var(--white-color);
+    padding: 0rem 5rem;
+    margin: auto;
+    width: 100%;
+}
+.descr{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 5rem;
+}
+
+.descr-txt{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    gap: 1rem;
+}
+.descr img{
+transform: scale(0.8);
+}
+
+.descr-txt h2{
+    font-size: var(--text-md);
+}
+.descr-txt p{
+    font-size: var(--text-sm);
+    line-height: 2;
+}
+
+.abt-cat{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.abt-card{
+    display: flex;
+width: 100%;
+justify-content: center;
+}
+.abt-card span{
+    width: 100%;
+    padding: 5rem;
+    margin: 0 auto;
+    height: 100%;
+    color: var(--white-color);
+    font-size: var(--text-rg);
+    line-height: 2;
 }
