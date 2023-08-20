@@ -1,0 +1,18 @@
+#errorpage{
+    display: flex;
+    flex-direction: column;
+    padding: 15rem;
+    background-color: var(--white-color);
+    text-align: center;
+    gap: 2rem;
+}
+#errorpage h1{
+font-size: var(--text-vbg);
+}
+
+#errorpage p{
+    font-size: var(--text-rg);
+    line-height: 2;
+    width: 80%;
+    margin: auto;
+}

@@ -1,5 +1,6 @@
 #write{
     padding: 0;
+    background-color: var(--white-color);
 }
 .hero-write {
   background-image: url("../../assets/home/hero-write.png");
@@ -7,4 +8,52 @@
   background-size: cover;
   width: 100%;
   height: 60vh;
+}
+.write-ctn{
+    background-image: url('../../assets/home/pen.png');
+    padding: 5rem;
+    line-height: 2;
+}
+.write-ctn h2{
+    text-align: center;
+}
+.write-ctn p{
+    padding: 2rem 5rem;
+    max-width: 70%;
+    font-size: var(--text-sm);
+}
+.write-ctn ul{
+    margin-left: 2rem;
+}
+.writers{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem ;
+}
+
+.writer{
+    width: 30%;
+display: flex;
+flex-direction: column;
+}
+.writer img{
+    width: 100%;
+}
+.writer-name{
+    font-size: var(--text-rg);
+}
+.writer-title{
+    font-size: var(--text-sm);
+
+}
+
+.writer-star{
+    width:30%;
+}
+.join-writers{
+    text-align: center;
+    width: 100%;
+    margin: auto;
 }
