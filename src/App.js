@@ -18,7 +18,9 @@ import Signup from "./components/account/SignUp";
 
 import Searchbar from "./components/searchbar/Searchbar";
 import ContactUs from "./components/contact/Contact";
+import Profile from "./components/userprofile/UserProfile";
 import Reset from "./components/account/Reset";
+import Error from "./components/errorpage/ErrorPage";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/reset" element={<Reset />} />
+        <Route path="/error" element={<Error />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />
